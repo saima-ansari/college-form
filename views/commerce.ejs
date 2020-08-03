@@ -20,21 +20,19 @@
             <h2 align=center>FORM OF APPLICATION FOR ADMISSION(2020-2021)-COMMERCE</h2>
         </div>
         <hr color=red width=100% height=200>
+<b>NOTE: Fill the form carefully and submit the printed copy in College office.</b>
+        <hr color=red width=100% height=200>
         <b>PERSONAL DETAILS:</b><br>
-        <div class="page1"><br> ENTER AADHAR CARD NUMBER:&nbsp &nbsp<input type=text name=adr size=35 required
-                maxlength=><br>
+        <div class="page1"><br> ENTER AADHAR CARD NUMBER:&nbsp &nbsp<input type=text name=adr size=35 required maxlength=12><br>
             ENTER THE STUDENT'S NAME:&nbsp &nbsp &nbsp &nbsp<input type=text name=name size=35 required><br>
             ENTER THE FATHER'S NAME:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=fname size=35 required><br>
-            ENTER THE SURNAME :&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text
-                name=sname size=35 required><br>
+            ENTER THE SURNAME :&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=sname size=35 required><br>
             ENTER THE MOTHER'S NAME:&nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=mname size=35 required><br>
-            RESIDENTIAL ADDRESS:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<textarea name=ta rows=4
-                cols=50></textarea><br></div>
+            RESIDENTIAL ADDRESS:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<textarea name=ta rows=4 cols=50></textarea><br></div>
         <div class="page"><br>
             RELIGION:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=rel required><br>
-            CAST: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=cast
-                required><br>
-            SUBCAST: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=scast required><br>
+            CAST: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=cast required><br>
+            SUBCAST: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=scast><br>
             NATIONALITY :&nbsp &nbsp &nbsp &nbsp<input type=text name=nat value=INDIAN required><br>
             MOTHER TONGUE:<input type=text name=mt required><br></div>
         <div class="page"><br>
@@ -53,8 +51,7 @@
             <input type="date" name="dob">
             <br>
             ENTER THE BIRTH PLACE:<input type=text name=bp value="" required><br>
-            PROOF OF DATE OF BIRTH ATTATCHED(SCHOOL LEAVING CERTIFICATE):<input type=radio name=proof value=1
-                required>YES
+            PROOF OF DATE OF BIRTH ATTATCHED(SCHOOL LEAVING CERTIFICATE):<input type=radio name=proof value=1 required>YES
             <input type=radio name=proof value=2 required>NO<br>
             LAST SCHOOL ATTENDED:<input type=text name=ls value="" size=70 required><br></div>
         <div class="page1">
@@ -62,7 +59,7 @@
             SSC SEAT NUMBER:&nbsp &nbsp<input type=text name=seat value="" maxlength=7 required><br>
             BOARD NAME: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=bn value="" required><br>
             MONTH OF PASSING:
-            <input type="month" name="dop" min="2001-01"><br>
+            <input type="month" name="dop" min="2001-01" required><br>
             <b> MARKS OBTAINED:</b><BR>
             ENGLISH:<input type=number name=em value="" maxlength=3 size=3 required><br><br>
             MARATHI:<input type=number name=mm value="" maxlength=3 size=3 required><br><br>
@@ -123,8 +120,8 @@
                _________________________________
                            <br>	Signature of parent/Guardian
                <br><br>
-                           <input type=submit name=submit value=submit>
-                           <input type=reset name=reset value=reset>
+                         <input type=submit name=submit value="Submit & Print" onclick=print()>
+                         <input type=reset name=reset value=reset>
     </form>
 
 
